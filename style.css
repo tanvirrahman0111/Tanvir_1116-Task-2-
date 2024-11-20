@@ -1,0 +1,76 @@
+body {
+    background:
+        linear-gradient(to top, white, #e0cfff, transparent 50%),
+        linear-gradient(to right, transparent 50%, #ffebb6),
+        radial-gradient(circle at top left, #a2bff5, transparent 50%),
+        radial-gradient(circle at top right, #a1a1fc, transparent 50%);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #642ec9;
+    padding: 10px 30px;
+    position: relative;
+}
+
+.navbar img {
+    height: 30px;
+    width: 35px;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, sans-serif;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.search-button .shortcut-badge {
+    background-color: #6013e6;
+    color: white;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+    float: right;
+}
+
+.btn-outline-light {
+    color: white;
+    border: 1px solid white;
+}
+
+.modal .form-control {
+    border-color: #d1d1d1;
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+.modal .form-control:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 0 0.2rem rgba(124, 58, 237, 0.25);
+}
+
+.search-helper {
+    color: #666;
+    font-size: 1rem;
+}
+
+.lead {
+    color: rgba(19, 15, 15, 0.753);
+    font-size: 25px;
+}
